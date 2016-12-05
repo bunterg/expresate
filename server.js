@@ -49,10 +49,10 @@ const ViewEngineConfig = {
     engines: {
         html: require('handlebars')
     },
-    relativeTo: __dirname,
     path: './templates',
-    layoutPath: './templates/layout',
+    relativeTo: __dirname,
     layout: true,
+    layoutPath: './templates/layout',
     helpersPath: './templates/helpers'
 };
 

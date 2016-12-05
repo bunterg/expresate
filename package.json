@@ -5,6 +5,9 @@
   "main": "server.js",
   "repository": "",
   "author": "Bernardo Garcia <bgarcia@correo.unimet.edu.ve>",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "good": "^7.1.0",
     "good-console": "^6.3.1",

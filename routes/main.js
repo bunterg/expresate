@@ -6,7 +6,7 @@ let internals = {};
  * @apiSuccess
  */
 internals.getAll = (request, reply) => {
-    reply.view('index');
+    reply.view('index', { title: 'My home page' });
 };
 
 internals.getByName = (request, reply) => {
