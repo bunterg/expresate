@@ -7,7 +7,7 @@ const Vision = require('vision');
 const Hoek = require('hoek');
 var mongoose = require('mongoose');
 
-mongoose.connect(process.env.DATABASE_URL||'mongodb://localhost/test');
+mongoose.connect(process.env.MONGODB_URI||'mongodb://localhost/test');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
