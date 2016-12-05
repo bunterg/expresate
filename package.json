@@ -1,0 +1,19 @@
+{
+  "name": "Expresate",
+  "version": "0.0.1",
+  "description": "Mostrar ideas opinar",
+  "main": "server.js",
+  "repository": "",
+  "author": "Bernardo Garcia <bgarcia@correo.unimet.edu.ve>",
+  "dependencies": {
+    "good": "^7.1.0",
+    "good-console": "^6.3.1",
+    "good-squeeze": "^5.0.1",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.0.1",
+    "hoek": "^4.1.0",
+    "inert": "^4.0.3",
+    "mongoose": "^4.7.1",
+    "vision": "^4.1.1"
+  }
+}
